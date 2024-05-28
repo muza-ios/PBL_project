@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="admin-panel">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="student.jpg" alt="Student Picture" class="student-picture">
+                <h2>Student</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Students</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <h1>Dashboard</h1>
+            </header>
+            <section class="content">
+                <!-- Main content goes here -->
+                <table class="pretty-table">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Date</th>
+                            <th>Sex</th>
+                            <th>Result</th>
+                            <th>Status</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="F.I.O.">Muzaffar Mamatmurodov</td>
+                            <td data-label="Tug'ulgan sana">25.01.2003</td>
+                            <td data-label="Jinsi">Erkak</td>
+                            <td data-label="Check">Checking</td>
+                            <td data-label="Modify">
+                                <a href="">Change</a>
+                                <a href="">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="F.I.O.">Dilmurod Mamatmurodov</td>
+                            <td data-label="Tug'ulgan sana">20.02.1998</td>
+                            <td data-label="Jinsi">Erkak</td>
+                            <td data-label="Check">Checking</td>
+                            <td data-label="Modify">
+                                <a href="">Change</a>
+                                <a href="">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="F.I.O.">A'zam Mamatmurodov</td>
+                            <td data-label="Tug'ulgan sana">24.06.1994</td>
+                            <td data-label="Jinsi">Erkak</td>
+                            <td data-label="Check">Checking</td>
+                            <td data-label="Modify">
+                                <a href="">Change</a>
+                                <a href="">Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

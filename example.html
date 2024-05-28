@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="example.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="admin-panel">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="pic_.jpg" alt="Student Picture" class="student-picture">
+                <h2>Student</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Students</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <h1>Dashboard</h1>
+            </header>
+            <div class="content">
+                <table class="pretty-table">
+                    <tbody>
+                        <ul>
+                            <td>Full Name</td>
+                            <td>Date</td>
+                            <td>ID</td>
+                            <td>Result</td>
+                            <td>Status</td>
+                        </ul>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <th>Muzaffar Mamatmurodov</th>
+                            <th>25.01.2003</th>
+                            <th>2200123</th>
+                            <th>Checking</th>
+                            <th>
+                                <a href="#" class="change-btn" data-id="1">Change</a>
+                                <a href="#" class="delete-btn" data-id="1">Delete</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Dilmurod Mamatmurodov</th>
+                            <th>20.02.1998</th>
+                            <th>2312093</th>
+                            <th>Checking</th>
+                            <th>
+                                <a href="#" class="change-btn" data-id="2">Change</a>
+                                <a href="#" class="delete-btn" data-id="2">Delete</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>A'zam Mamatmurodov</th>
+                            <th>24.06.1994</th>
+                            <th>2209342</th>
+                            <th>Checking</th>
+                            <th>
+                                <a href="#" class="change-btn" data-id="3">Change</a>
+                                <a href="#" class="delete-btn" data-id="3">Delete</a>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="example.js"></script>
+</body>
+</html>
